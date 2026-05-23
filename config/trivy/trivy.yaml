@@ -1,0 +1,17 @@
+severity:
+  - CRITICAL
+  - HIGH
+  - MEDIUM
+  - LOW
+scanners:
+  - vuln
+  - secret
+  - config
+ignore-unfixed: false
+skip-dirs:
+  - node_modules
+  - .venv
+  - venv
+  - dist
+  - build
+  - .terraform

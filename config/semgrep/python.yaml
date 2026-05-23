@@ -1,0 +1,10 @@
+extends: base.yaml
+rules:
+  - p/python
+  - p/flask
+  - p/sql-injection
+paths:
+  exclude:
+    - venv
+    - .venv
+    - tests

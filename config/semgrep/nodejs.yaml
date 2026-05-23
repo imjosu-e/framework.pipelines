@@ -1,0 +1,15 @@
+extends: base.yaml
+rules:
+  - p/javascript
+  - p/typescript
+  - p/nodejs
+  - p/express
+  - p/jwt
+  - p/xss
+  - p/sql-injection
+paths:
+  exclude:
+    - node_modules
+    - dist
+    - build
+    - "**/*.test.js"

@@ -1,0 +1,7 @@
+extends: base.yaml
+rules:
+  - p/terraform
+paths:
+  exclude:
+    - .terraform
+    - examples
